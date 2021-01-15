@@ -1,3 +1,27 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+header {
+  height: 7vh;
+}
+
+.content {
+  min-height:88vh;
+  padding: 2em;
+}
+
+footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+   min-height: 5vh;
 }
